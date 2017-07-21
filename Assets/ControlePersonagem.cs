@@ -13,6 +13,6 @@ public class ControlePersonagem : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		rb.position += new Vector2 (Input.GetAxis ("Horizontal") * Time.deltaTime * velocidade, 0f);
-		transform.rotation = Quaternion.identity;
+
 	}
 }
